@@ -1,1 +1,8 @@
 exportPattern("^[[:alpha:]]+")
+import("lattice")
+import("latticeExtra")
+importFrom("grDevices", "terrain.colors")
+importFrom("graphics", "axis", "boxplot", "grid", "hist", "legend",
+     "lines", "matplot", "par", "points")
+importFrom("stats", "quantile", "rbinom", "rgamma", "rmultinom",
+     "rpois", "sd")
